@@ -1,0 +1,54 @@
+{
+  "kind": "author_blog_r9_candidate_partition_r2",
+  "status": "fixed_before_r7_screening",
+  "recorded_date": "2026-11-20",
+  "source_policy_sha256": "db74ee4ac426da6d03c225069d5cccfb2390adf205273e1b81afe3c927c4310a",
+  "acquisition_plan_sha256": "8d61d057c2c250dcaa31891b407cf35f786b918d53fbabbbebcb6b84425a1455",
+  "parent_manifest_sha256": "c68e31b1a553fc5f572e579135a2cc249a24b4cca841c1bc5d65fbcea6d50fce",
+  "tokenizer_sha256": "ebab3a8c222a7d05b0162d2b0487141ba0182a48041774492e3979f2eb859df4",
+  "excluded": [
+    "fineweb2"
+  ],
+  "roles": {
+    "author_blog_ideal": "train_only",
+    "author_blog_antfu": "train_only",
+    "author_blog_liam": "validation_only"
+  },
+  "author_roles": {
+    "ideal": {
+      "split": "train",
+      "author": "idealclover",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "antfu": {
+      "split": "train",
+      "author": "Anthony Fu",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "liam": {
+      "split": "validation",
+      "author": "Liam Huang",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "selection": {
+    "ideal": [
+      "596.html"
+    ],
+    "antfu": [
+      "about-yak-shaving-zh.md",
+      "binfe-2020-zh.md"
+    ],
+    "liam": [
+      "five-step-training-method-for-English-listening.html",
+      "pitch-interval-and-harmonic.html",
+      "Monty-Hall-problem.html",
+      "figures-in-scitech-papers.html",
+      "tide-influence-on-the-moon.html"
+    ]
+  },
+  "rule": "Author-level split fixed before screening. R7 may use only new complete paragraphs from these already-fixed documents; same-article passage reuse is allowed, but exact, sentence, parent and near-duplicate checks remain mandatory."
+}

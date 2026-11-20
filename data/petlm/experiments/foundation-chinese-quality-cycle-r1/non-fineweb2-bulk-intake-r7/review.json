@@ -1,0 +1,225 @@
+{
+  "status": "pending_human_review",
+  "rows": [
+    {
+      "id": "fe94bb6b04a280a719294d8447fce6f81daaa0ec2d1c98eacab1a8da16632f8f",
+      "source": "author_blog_liam",
+      "topic": "科学与艺术",
+      "split": "validation",
+      "text": "音程(pitch interval)是人类感受到两个音音高之间的差距。在人类听力的中频段,人类对不同音高音符之间音程的感知大致是对数的;在高频段则不太符合对数规则。人类听力的这一特性是由人的听觉系统的生理结构决定的。",
+      "title": "乐理漫谈：音高、音程、泛音",
+      "origin": "https://liam.page/2018/04/09/pitch-interval-and-harmonic",
+      "attribution": "Liam Huang",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "raw_payload_sha256": "45401eae0cf237f77be49086629e9548c6ed26a528ef4b732cbd15a77026e67a",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/liam/pitch-interval-and-harmonic.html.receipt.json",
+      "section": "音程",
+      "original_paragraph_indices": [
+        18
+      ],
+      "tokens_with_eos": 71,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "5d0500b9624c003f77bea70ab3cdd9ea99b137266e84d5e1d785560fcd926c25",
+      "source": "author_blog_liam",
+      "topic": "科学与艺术",
+      "split": "validation",
+      "text": "音程为 1 音分两个音符,人耳是很难分辨的。按照 I. Peretz 和 K.L. Hyde的说法,普通成人可以清晰分辨的最短音程差至少是 25 音分。而患有乐感丧失症的成人(一般意义上的五音不全者即属此类),不能分辨小于 100 音分的音程差。",
+      "title": "乐理漫谈：音高、音程、泛音",
+      "origin": "https://liam.page/2018/04/09/pitch-interval-and-harmonic",
+      "attribution": "Liam Huang",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "raw_payload_sha256": "45401eae0cf237f77be49086629e9548c6ed26a528ef4b732cbd15a77026e67a",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/liam/pitch-interval-and-harmonic.html.receipt.json",
+      "section": "音分",
+      "original_paragraph_indices": [
+        23
+      ],
+      "tokens_with_eos": 83,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "c579bb9a662708740fe99eb40e3e828587e28a6ba2f74373b8684f65245e9de1",
+      "source": "author_blog_liam",
+      "topic": "科学与表达",
+      "split": "validation",
+      "text": "于是,我们将单位长度(通常以英寸计)内像素数量 ppi 作为分辨率的单位。在感光设备上,我们也用单位长度内感光元件(点)的数量 dpi 作为分辨率的单位。值得一提的是,感光元件(点)一般来说最终会一一对应到像素上。因此在不严肃的场合下,ppi 和 dpi 可以认为是同一单位。",
+      "title": "科技论文中的图片",
+      "origin": "https://liam.page/2019/07/30/figures-in-scitech-papers",
+      "attribution": "Liam Huang",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "raw_payload_sha256": "5b49f5fc5a2c5c56c635f00ce0e572abf7a604b5f78a83f8a78d4ddf5af2dfc8",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/liam/figures-in-scitech-papers.html.receipt.json",
+      "section": "图片分辨率",
+      "original_paragraph_indices": [
+        20
+      ],
+      "tokens_with_eos": 84,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "1e39195889ba4a88e1c669a669caa8dcf30e4bd6b4d31ec63d426667f43b3476",
+      "source": "author_blog_liam",
+      "topic": "科学与自然",
+      "split": "validation",
+      "text": "除了对地球本身的引力作用,月球还能吸引地球表面的物体。最显著的现象,就是吸引海水,形成潮汐。因为月球的引力作用,地球表面的海水,会在地心-月心连线方向上(近似)形成两个凸起。靠近月球方向的凸起,主要是由月球的引力造成的;远离月球方向的凸起,则是地球绕系统质心旋转产生的离心现象(可以想作是离心力将背对月球地方的海水甩出去了)。考虑到地球自转的角速度与月球公转的角速度不同,而「凸起」(基本上)是锁定月球的方向,于是「凸起」会相对地表不断移动。这个相对运动,在地球上生活的人看来,就是涨潮和落潮。",
+      "title": "地球潮汐对地月系统的影响是怎样的",
+      "origin": "https://liam.page/2016/09/28/tide-influence-on-the-moon",
+      "attribution": "Liam Huang",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "raw_payload_sha256": "959a382efbb0fcdc1e45dfd0ad3c46a9818a029c4ddc97e2aafc0fde9bba0e19",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/liam/tide-influence-on-the-moon.html.receipt.json",
+      "section": "潮汐是怎样来的",
+      "original_paragraph_indices": [
+        4
+      ],
+      "tokens_with_eos": 161,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "df0079000edadf617b38589a4d81ded04571ec9c440b0749ea7103dfd694f6f8",
+      "source": "author_blog_ideal",
+      "topic": "学习与技术",
+      "split": "train",
+      "text": "另一个困难则在于,我们所获取的数据往往是“有偏”的,如何评估与修正这些偏差,则又是一个棘手的问题——因为我们自身是很难意识到我们的偏差的,想要评估与修正则更是难上加难。更何况我们很多时候只愿相信我们所相信的,本能抗拒与我们直觉相违背的结论。",
+      "title": "如何更好地构建“知识体系” - 聊聊 DIKW 模型",
+      "origin": "https://idealclover.top/archives/596",
+      "attribution": "idealclover",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "raw_payload_sha256": "f922eb3317344870c07f358a6d4243dcfc9b8d2d331f2dc4e31d187abf59147c",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/ideal/596.html.receipt.json",
+      "section": "Data 如何成为 Information",
+      "original_paragraph_indices": [
+        22
+      ],
+      "tokens_with_eos": 79,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "9112b37103b01fe5c0bbecc23e746929eeffcf8aed0dc68bea7e876477ddd392",
+      "source": "author_blog_ideal",
+      "topic": "学习与技术",
+      "split": "train",
+      "text": "用相对具体的例子说一说。例如在产品领域,knowledge 更像是在说某 APP 所具体实现的功能,例如微信的联系人功能,私聊功能,群组功能,pyq 功能等等,而 wisdom 探讨的则是“微信的本质是什么(让人与人之间互相连接)”,“为什么要设计朋友圈功能”等等的问题。",
+      "title": "如何更好地构建“知识体系” - 聊聊 DIKW 模型",
+      "origin": "https://idealclover.top/archives/596",
+      "attribution": "idealclover",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "raw_payload_sha256": "f922eb3317344870c07f358a6d4243dcfc9b8d2d331f2dc4e31d187abf59147c",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/ideal/596.html.receipt.json",
+      "section": "Knowledge 如何成为 Wisdom",
+      "original_paragraph_indices": [
+        38
+      ],
+      "tokens_with_eos": 82,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "e8d1c5f9dbc4d67ef2fc9fe5da762813ba3b25df8f06ba0fa9eafdd75a3eee23",
+      "source": "author_blog_antfu",
+      "topic": "学习与技术",
+      "split": "train",
+      "text": "我大学四年每天都在想着可以做一个有趣、大家都需要的开源项目,过上全职开源那种自由的生活。而事实是,我花了四年空想,也没有实现最开始定的毕业前 100 Stars 的目标,却在毕业的暑假两个月里,拿到了我从来没有想过的 1K Stars。区别在于,四年里我在想的是如何做出别人想要的东西,而后来我在解决的是自己遇到的实际的问题。如上面所说,当你需要一个工具的时候,你最有动力把它做出来,同时作为用户,也最了解痛点和需求在哪里,而当你遇到这个问题的时候,说不定其他人也遇到了类似的问题。",
+      "title": "关于 Yak Shaving",
+      "origin": "https://raw.githubusercontent.com/antfu/antfu.me/0be14a9ef6fdad5ccaf72010e8e1fed508920102/pages/posts/about-yak-shaving-zh.md",
+      "attribution": "Anthony Fu",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "raw_payload_sha256": "7dca5821dfe6aa8669f2f69ae7f60a4344ef986ade2f70cedfb6f3566457c735",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/antfu/about-yak-shaving-zh.md.receipt.json",
+      "section": "发现问题",
+      "original_paragraph_indices": [
+        25
+      ],
+      "tokens_with_eos": 137,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "88c6f288138bd886a6fcc4bcb9cfa1ed83211ab465d2d1c3ee93a8cf116576df",
+      "source": "author_blog_antfu",
+      "topic": "学习与技术",
+      "split": "train",
+      "text": "作为自己产品的第一用户,你会在使用它的过程中发现许多需要改善的地方,时不时去修改一下,完善一些。有空的话可以加个 README,描述一下你遇到的问题的做这个项目的动机,也许可以顺便帮助到一些遇到一样问题的人。",
+      "title": "关于 Yak Shaving",
+      "origin": "https://raw.githubusercontent.com/antfu/antfu.me/0be14a9ef6fdad5ccaf72010e8e1fed508920102/pages/posts/about-yak-shaving-zh.md",
+      "attribution": "Anthony Fu",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "raw_payload_sha256": "7dca5821dfe6aa8669f2f69ae7f60a4344ef986ade2f70cedfb6f3566457c735",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/antfu/about-yak-shaving-zh.md.receipt.json",
+      "section": "完善项目",
+      "original_paragraph_indices": [
+        32
+      ],
+      "tokens_with_eos": 59,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "9b4becd99d3f33fa03ad84057186d51204170568c0414a6569dc27c37a8de1a7",
+      "source": "author_blog_antfu",
+      "topic": "教育与技术",
+      "split": "train",
+      "text": "我这次分享的主要会和大家简单介绍一下响应式与组合式 API,然后通过一个例子的形式介绍组合式 API 所带来的优势。再来,我会以一个工具库作者的角度跟大家聊一聊如何做到 Vue 2 与 Vue 3 双版本同时兼容的同构。最后,我会去再介绍一下响应式 API 的一些延伸应用。",
+      "title": "import { reactive } from 'vue'",
+      "origin": "https://raw.githubusercontent.com/antfu/antfu.me/0be14a9ef6fdad5ccaf72010e8e1fed508920102/pages/posts/binfe-2020-zh.md",
+      "attribution": "Anthony Fu",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "raw_payload_sha256": "f0f1ce1930856e69924648bf7eb00b9f32171323fa534286339d4519e88be1f0",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/antfu/binfe-2020-zh.md.receipt.json",
+      "section": "介绍",
+      "original_paragraph_indices": [
+        8
+      ],
+      "tokens_with_eos": 78,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    },
+    {
+      "id": "346526ec4366b285fc396e3f942e4bc5cd9b30c3eca2ca29277ccd74ca9cad75",
+      "source": "author_blog_antfu",
+      "topic": "教育与技术",
+      "split": "train",
+      "text": "在 effect 里面我们会接受一个函数作为参数,在执行这个函数之前的我们会开启 tracking,然后把当前的函数设置在一个全局变量 activeEffect,然后再去执行这个函数。那么在这个函数的调用时间里面我们有任何的 reactive 的调用就会触发 track 这个函数。track 的主要功能就是说我们把当前的 activeEffect 绑定到所触发它的这个属性调用上。然后在数据更新的时候,我们再去找到这个依赖上面所绑定的所有 effect 把他们一一调用。这样就完成了一个最基本的响应式的功能。",
+      "title": "import { reactive } from 'vue'",
+      "origin": "https://raw.githubusercontent.com/antfu/antfu.me/0be14a9ef6fdad5ccaf72010e8e1fed508920102/pages/posts/binfe-2020-zh.md",
+      "attribution": "Anthony Fu",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "raw_payload_sha256": "f0f1ce1930856e69924648bf7eb00b9f32171323fa534286339d4519e88be1f0",
+      "receipt_path": "data/petlm/raw/author-blogs-r9/antfu/binfe-2020-zh.md.receipt.json",
+      "section": "Effect",
+      "original_paragraph_indices": [
+        17
+      ],
+      "tokens_with_eos": 137,
+      "human_decision": null,
+      "training_eligible": false,
+      "validation_admitted": false
+    }
+  ]
+}

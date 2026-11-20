@@ -1,0 +1,33 @@
+{
+  "kind": "r7_pre_review_quality_and_dedup_audit",
+  "historical_review_files": 366,
+  "candidate_rows_before_dedup": 25,
+  "selected_rows": 10,
+  "rejections": {
+    "author_blog_liam/length": 48,
+    "author_blog_liam/historical_exact_prefix_sentence": 6,
+    "author_blog_liam/context_dependency": 3,
+    "author_blog_liam/depends_on_omitted_context": 3,
+    "author_blog_liam/non_prose_inline_or_image": 14,
+    "author_blog_liam/markup_or_language_defect": 13,
+    "author_blog_liam/low_chinese_ratio": 1,
+    "author_blog_liam/incomplete_paragraph": 2,
+    "author_blog_ideal/length": 41,
+    "author_blog_ideal/non_prose_inline_or_image": 3,
+    "author_blog_ideal/incomplete_paragraph": 9,
+    "author_blog_ideal/low_chinese_ratio": 2,
+    "author_blog_ideal/depends_on_omitted_context": 2,
+    "author_blog_antfu/length": 26,
+    "author_blog_antfu/markup_or_language_defect": 7,
+    "author_blog_antfu/low_chinese_ratio": 22,
+    "author_blog_antfu/historical_exact_prefix_sentence": 5,
+    "author_blog_antfu/incomplete_paragraph": 7,
+    "author_blog_antfu/depends_on_omitted_context": 4,
+    "author_blog_antfu/context_dependency": 3,
+    "author_blog_antfu/personal_or_contact_pattern": 1,
+    "author_blog_ideal/batch_bound": 3,
+    "author_blog_antfu/batch_bound": 12
+  },
+  "near_duplicate_method": "normalized CJK character 5-grams; 78% containment; parent searched by 8-CJK probes",
+  "caveat": "Approximate deduplication does not establish semantic originality; reviewer should inspect paraphrases and source context."
+}
