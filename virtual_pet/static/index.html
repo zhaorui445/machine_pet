@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="pet-token" content="__PET_TOKEN__">
+  <title>团团 · 虚拟宠物</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/">✳ <span>小小陪伴</span></a><span class="top-note">给日常，留一点柔软。</span><span id="connection" class="badge">正在连接…</span></header>
+  <main class="layout">
+    <section class="pet-panel" aria-label="宠物与设置">
+      <div class="eyebrow">YOUR LITTLE COMPANION</div>
+      <h1>你好，我是<span id="pet-name">团团</span><span class="title-dot">。</span></h1>
+      <p class="subtitle">聊聊今天，也记住那些小事。</p>
+      <div class="pet-scene" id="pet-scene">
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+        <svg id="pet" viewBox="0 0 300 300" role="img" aria-label="一只圆滚滚的薄荷绿虚拟宠物">
+          <ellipse class="shadow" cx="150" cy="264" rx="76" ry="13" fill="#9daaa2" opacity=".16"/>
+          <g class="pet-body">
+            <path d="M88 108 Q61 39 92 43 Q118 49 123 89" fill="#b2d7ba" stroke="#688c72" stroke-width="3"/>
+            <path d="M178 89 Q187 39 211 43 Q239 47 215 110" fill="#b2d7ba" stroke="#688c72" stroke-width="3"/>
+            <path d="M91 80 Q82 50 93 56 Q105 65 109 86M191 86 Q198 57 210 56 Q218 56 209 86" fill="#f2d7c9"/>
+            <path d="M70 154 Q55 204 67 218 Q79 229 91 204M228 154 Q245 205 232 218 Q220 227 209 204" fill="#b2d7ba" stroke="#688c72" stroke-width="3"/>
+            <path d="M75 151 Q75 82 151 82 Q226 82 226 151 L232 203 Q232 254 151 257 Q67 257 68 205Z" fill="#c3e1c8" stroke="#688c72" stroke-width="3"/>
+            <ellipse cx="151" cy="219" rx="46" ry="27" fill="#e5efda"/>
+            <ellipse cx="99" cy="179" rx="16" ry="9" fill="#e8b9ab" opacity=".85"/><ellipse cx="202" cy="179" rx="16" ry="9" fill="#e8b9ab" opacity=".85"/>
+            <g class="eyes"><ellipse cx="116" cy="157" rx="6" ry="9" fill="#34493d"/><ellipse cx="185" cy="157" rx="6" ry="9" fill="#34493d"/><circle cx="118" cy="154" r="2" fill="white"/><circle cx="187" cy="154" r="2" fill="white"/></g>
+            <path id="mouth" d="M139 178 Q150 190 162 178" fill="none" stroke="#34493d" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M100 247 Q89 268 111 269 L131 267M171 267 L191 269 Q212 268 200 247" fill="#b2d7ba" stroke="#688c72" stroke-width="3"/>
+            <path d="M139 208 Q151 200 163 208 L157 217 L145 217Z" fill="#d59c54"/><circle cx="151" cy="212" r="3" fill="#fff3ce"/>
+          </g>
+        </svg>
+        <div id="pet-bubble" class="pet-bubble" role="status">今天有什么想分享的吗？</div>
+      </div>
+      <div class="pet-actions"><button id="pat" type="button">♡ 摸摸头</button><button id="play" type="button">✧ 玩一会儿</button><button id="rest" type="button">☾ 休息</button></div>
+      <p class="small centered">互动动画是宠物表现，不代表真实情绪。</p>
+      <details class="settings"><summary>陪伴方式 <span>个性设置</span></summary>
+        <form id="settings-form">
+          <label for="name">宠物名字</label><input id="name" maxlength="12" value="团团" required>
+          <label for="style">聊天风格</label><select id="style"><option value="gentle">温柔陪伴</option><option value="brief">简洁直接</option><option value="study">学习伙伴</option></select>
+          <label class="check"><input id="send-memory" type="checkbox"> 允许本地模型参考最近 20 条记忆</label>
+          <p class="small">记忆只保存在本机；关闭后不放入模型对话上下文。</p>
+          <button class="primary" type="submit">保存设置</button>
+        </form>
+      </details>
+    </section>
+
+    <section class="chat-panel" aria-label="聊天">
+      <div class="section-heading"><div><span class="eyebrow">OUR CONVERSATION</span><h2>慢慢说，我在听</h2></div><button id="clear-chat" class="text-button" type="button">清空对话</button></div>
+      <div id="mode-note" class="mode-note">正在读取宠物状态…</div>
+      <div id="messages" class="messages" role="log" aria-label="聊天记录" aria-live="polite"></div>
+      <div id="thinking" class="thinking" role="status" hidden>团团正在想一想…</div>
+      <div class="suggestions"><button type="button" data-message="你好，今天我们聊点什么？">打个招呼</button><button type="button" data-message="记住：我喜欢天文学">试试记忆</button><button type="button" data-message="1分钟后提醒我喝水">提醒喝水</button></div>
+      <form id="chat-form" class="composer"><label class="sr-only" for="message">给宠物发消息</label><textarea id="message" rows="2" maxlength="2000" placeholder="说说今天，或者问我一个问题…" required></textarea><div class="composer-footer"><div class="voice-controls"><button id="mic" class="text-button" type="button">◉ 语音输入</button><label class="check"><input id="speak" type="checkbox">朗读回复</label></div><button id="send" class="primary" type="submit">发送 ↗</button></div></form>
+      <p id="voice-note" class="small" role="status" aria-live="polite">Enter 发送 · Shift + Enter 换行。语音能力取决于浏览器。</p>
+    </section>
+
+    <aside class="organizer" aria-label="记忆与提醒">
+      <section class="organizer-section"><span class="eyebrow">LITTLE MEMORIES</span><h2>记住你的小事 <span id="memory-count" class="count">0</span></h2><p class="small">只保存你明确添加的内容。</p><form id="memory-form" class="compact-form"><label class="sr-only" for="memory-text">添加记忆</label><input id="memory-text" placeholder="例如：我喜欢天文学" maxlength="500" required><button type="submit" aria-label="保存记忆">＋</button></form><div id="memories" class="item-list"></div></section>
+      <section class="organizer-section reminders-section"><span class="eyebrow">A GENTLE NUDGE</span><h2>到点，提醒你</h2><p class="small">保持服务和页面运行；关闭后不会弹出提醒，下次打开会显示未确认事项。</p><form id="reminder-form"><label class="sr-only" for="reminder-text">提醒内容</label><input id="reminder-text" placeholder="该休息一下啦" maxlength="200" required><label for="reminder-time" class="small">提醒时间（本机时间）</label><input id="reminder-time" type="datetime-local" required><button type="submit" class="secondary">添加提醒</button></form><div id="reminders" class="item-list"></div></section>
+      <p class="privacy-note">记忆和聊天记录保存在本机。语音识别可能使用浏览器厂商的在线服务；真实移动功能未启用。</p>
+    </aside>
+  </main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="edit-dialog"><form id="edit-form"><h2>修改这条记忆</h2><label class="sr-only" for="edit-text">记忆内容</label><textarea id="edit-text" rows="4" maxlength="500" required></textarea><div class="dialog-actions"><button id="cancel-edit" type="button">取消</button><button type="submit" class="primary">保存修改</button></div></form></dialog>
+</body>
+</html>

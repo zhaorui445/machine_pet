@@ -1,0 +1,14 @@
+{
+  "vocab_size": 12000,
+  "width": 512,
+  "layers": 8,
+  "heads": 8,
+  "context": 256,
+  "batch_size": 2,
+  "accumulation": 8,
+  "learning_rate": 0.0003,
+  "warmup_steps": 100,
+  "steps": 1000,
+  "eval_every": 100,
+  "seed": 42
+}

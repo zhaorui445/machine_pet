@@ -1,0 +1,85 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "电子宠物：查看自建模型训练曲线",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "tensorboard.main", "--logdir", "${workspaceFolder}/data/petlm/models", "--host", "127.0.0.1", "--port", "6006"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "电子宠物：验证 GPU 训练",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["${workspaceFolder}/check_gpu.py"],
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    },
+    {
+      "label": "电子宠物：查看训练曲线",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "tensorboard.main", "--logdir", "${workspaceFolder}/data/gpu-check/runs", "--host", "127.0.0.1", "--port", "6006"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "电子宠物：检查开发环境",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["${workspaceFolder}/main.py"],
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "电子宠物：安装项目依赖",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "pip", "install", "-r", "${workspaceFolder}/requirements.txt"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "电子宠物：逐条审核自然对话",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-X", "utf8", "-m", "petlm.dialogue_expand", "review", "--source", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/candidates.pending.jsonl", "--decisions", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/review-decisions.jsonl", "--reviewer", "${input:petDialogueReviewer}", "--limit", "25"],
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    },
+    {
+      "label": "电子宠物：查看自然对话审核进度",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-X", "utf8", "-m", "petlm.dialogue_expand", "status", "--source", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/candidates.pending.jsonl", "--decisions", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/review-decisions.jsonl"],
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    },
+    {
+      "label": "电子宠物：逐条审核新盲测答案",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-X", "utf8", "-m", "petlm.dialogue_expand", "review", "--source", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/blind/answer-key.pending.jsonl", "--decisions", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/blind/review-decisions.jsonl", "--reviewer", "${input:petDialogueReviewer}", "--limit", "10"],
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    },
+    {
+      "label": "电子宠物：查看新盲测审核进度",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-X", "utf8", "-m", "petlm.dialogue_expand", "status", "--source", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/blind/answer-key.pending.jsonl", "--decisions", "${workspaceFolder}/data/petlm/dialogue/natural-review-v5/blind/review-decisions.jsonl"],
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "petDialogueReviewer",
+      "type": "promptString",
+      "description": "请输入审核人姓名或代号"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Training utilities; install requirements-gpu.txt first.
+numpy>=1.26,<3
+sentencepiece>=0.2,<0.3
+tensorboard>=2.18,<3
+mwparserfromhell>=0.7,<1
+opencc-python-reimplemented>=0.1.7,<1

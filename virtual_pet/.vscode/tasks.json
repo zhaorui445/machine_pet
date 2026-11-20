@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "label": "虚拟宠物：运行测试",
+    "type": "process",
+    "command": "${workspaceFolder}/../.venv/Scripts/python.exe",
+    "args": ["-m", "unittest", "discover", "-s", "tests", "-v"],
+    "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONUTF8": "1" } },
+    "problemMatcher": [],
+    "group": "test"
+  }]
+}

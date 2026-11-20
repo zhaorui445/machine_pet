@@ -1,0 +1,16 @@
+{
+  "vocab_size": 24000,
+  "width": 1024,
+  "layers": 16,
+  "heads": 16,
+  "context": 1024,
+  "batch_size": 1,
+  "accumulation": 8,
+  "learning_rate": 0.00001,
+  "warmup_steps": 1,
+  "steps": 16,
+  "eval_every": 4,
+  "seed": 20261113,
+  "sampling": "nonoverlapping_single_pass",
+  "validation_sampling": "all_nonoverlapping_windows"
+}

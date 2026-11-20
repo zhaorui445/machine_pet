@@ -1,0 +1,11 @@
+{
+  "policy_version": 1,
+  "status": "disabled",
+  "real_motors_enabled": false,
+  "wheels_enabled": false,
+  "gpio_enabled": false,
+  "serial_actuation_enabled": false,
+  "autonomous_navigation_enabled": false,
+  "allowed_motion_environment": "software_simulation_only",
+  "decision": "Keep all physical actuation disabled until a separately approved hardware commissioning stage."
+}

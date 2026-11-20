@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-20",
+  "format": "machine_pet_public_data_export_v1",
+  "rows": 574,
+  "screening_exclusions": 1,
+  "fineweb2_rows": 0,
+  "files": {
+    "data/petlm/approved-prose/train.jsonl": {
+      "sha256": "4d6b2b343413189c06c001cbdcf5be6723bbe291c43ac0c89aa28cd6a912d3ba",
+      "size_bytes": 177832,
+      "rows": 121
+    },
+    "data/petlm/approved-prose/validation.jsonl": {
+      "sha256": "48bab37169002968cfa6252815d685db6a1117e73c6210e7d68dd3759c4d3674",
+      "size_bytes": 107442,
+      "rows": 78
+    },
+    "data/petlm/dialogue/direct-answer-development-reviewed-r1/development.jsonl": {
+      "sha256": "507dc94af191fbdb8800a513ded38605840a2a25af8b0b7a391b293abdc1fe9c",
+      "size_bytes": 14777,
+      "rows": 12
+    },
+    "data/petlm/dialogue/direct-answer-development-reviewed-r1/manifest.json": {
+      "sha256": "8a4c44dc8a0f95358aa2690863a4d41c806ef180cbb562f60c68a29291c1270f",
+      "size_bytes": 455,
+      "rows": null
+    },
+    "data/petlm/dialogue/independent-sft-reviewed-r1/LICENSE-BiToD": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size_bytes": 11357,
+      "rows": null
+    },
+    "data/petlm/dialogue/independent-sft-reviewed-r1/manifest.json": {
+      "sha256": "128c3602552b4acc907f4fdcd689ff837fd1479b33efb87df8df2e8d7f3f0a2d",
+      "size_bytes": 453,
+      "rows": null
+    },
+    "data/petlm/dialogue/independent-sft-reviewed-r1/validation.jsonl": {
+      "sha256": "ddae784b851d6441fbeed788f8c70f5a9c59a802833f1ab13db2d8eb27208a13",
+      "size_bytes": 3054,
+      "rows": 3
+    },
+    "data/petlm/dialogue/prepared-behavior-user-approved-v2/manifest.json": {
+      "sha256": "002125f899749aa5758b41feef22fcb7fd92b1ccbf84786d84f1f91c971b6694",
+      "size_bytes": 677,
+      "rows": null
+    },
+    "data/petlm/dialogue/prepared-behavior-user-approved-v2/train.jsonl": {
+      "sha256": "1450f70e35973a742893ca37e78a8f588d394c749853f68614283d3674c297dc",
+      "size_bytes": 450464,
+      "rows": 330
+    },
+    "data/petlm/dialogue/prepared-behavior-user-approved-v2/validation.jsonl": {
+      "sha256": "a8c8489f3b34e583fd155dd191d2a08959a6177e47f0fe9c46b4cfce9de17090",
+      "size_bytes": 47937,
+      "rows": 30
+    },
+    "data/petlm/local-assets.json": {
+      "sha256": "1f5610f007843c1a9dee6b526c7ecbf2990627c7a26b497b9d25f224c3f9baad",
+      "size_bytes": 8127,
+      "rows": null
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "original_manifest_sha256": "128736c1dc9e08aea887c8056e3434a8f7fb68d59d845770017db7183e46fce4",
+  "scope": "Only the listed original split files are exported. Public validation is not a blind benchmark.",
+  "files": {
+    "train.jsonl": {
+      "rows": 330,
+      "sha256": "1450f70e35973a742893ca37e78a8f588d394c749853f68614283d3674c297dc",
+      "original_sha256": "995b943847d0b4bb2b757f9c6dfbfd50243d54d60e01b4dede12298964f39e08"
+    },
+    "validation.jsonl": {
+      "rows": 30,
+      "sha256": "a8c8489f3b34e583fd155dd191d2a08959a6177e47f0fe9c46b4cfce9de17090",
+      "original_sha256": "cb837692e2818a0f1f263e6436d503a0f2453a3150be790636fd7abfd7e9f876"
+    }
+  }
+}

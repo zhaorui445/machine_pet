@@ -1,0 +1,344 @@
+{
+  "status": "local inventory only; these counts do not imply that all files are valid or distributable",
+  "total_directory_bytes": 188435947225,
+  "files_over_100_mib": 182,
+  "groups": [
+    {
+      "folder": "data/petlm/dialogue",
+      "file_count": 1007,
+      "bytes": 2187133315
+    },
+    {
+      "folder": "data/petlm/evaluation",
+      "file_count": 357,
+      "bytes": 12263345
+    },
+    {
+      "folder": "data/petlm/evaluations",
+      "file_count": 150,
+      "bytes": 5221106
+    },
+    {
+      "folder": "data/petlm/experiments",
+      "file_count": 3633,
+      "bytes": 3057585762
+    },
+    {
+      "folder": "data/petlm/models",
+      "file_count": 439,
+      "bytes": 155709820936
+    },
+    {
+      "folder": "data/petlm/prepared",
+      "file_count": 5,
+      "bytes": 12617140
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage1-verified",
+      "file_count": 5,
+      "bytes": 405791699
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage2-verified",
+      "file_count": 5,
+      "bytes": 371356263
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage3-final",
+      "file_count": 5,
+      "bytes": 370004065
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage4-final",
+      "file_count": 5,
+      "bytes": 367572189
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage5-final",
+      "file_count": 5,
+      "bytes": 367572189
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage6-final",
+      "file_count": 5,
+      "bytes": 369091420
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage7-final",
+      "file_count": 5,
+      "bytes": 369106959
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v17-stage8-final",
+      "file_count": 5,
+      "bytes": 461706632
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v18-strict",
+      "file_count": 5,
+      "bytes": 382889479
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v18-strict2",
+      "file_count": 5,
+      "bytes": 358656885
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v19-strict",
+      "file_count": 5,
+      "bytes": 359879109
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v20-strict",
+      "file_count": 5,
+      "bytes": 366119202
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v21-strict",
+      "file_count": 5,
+      "bytes": 373449477
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v22-strict",
+      "file_count": 5,
+      "bytes": 557400247
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v23-strict",
+      "file_count": 5,
+      "bytes": 557386855
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v24-strict",
+      "file_count": 5,
+      "bytes": 762614912
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v25-strict",
+      "file_count": 5,
+      "bytes": 988723021
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v26-strict",
+      "file_count": 8,
+      "bytes": 1289459521
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v26r1-plus-fineweb-527000-531999-unreviewed",
+      "file_count": 8,
+      "bytes": 1300509994
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v26r1-strict",
+      "file_count": 8,
+      "bytes": 1289284993
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v3",
+      "file_count": 5,
+      "bytes": 57200041
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v4",
+      "file_count": 5,
+      "bytes": 28887579
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v5",
+      "file_count": 5,
+      "bytes": 54996601
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v6",
+      "file_count": 5,
+      "bytes": 88262952
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v7",
+      "file_count": 5,
+      "bytes": 118296367
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v8",
+      "file_count": 5,
+      "bytes": 187416820
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v8-50m",
+      "file_count": 5,
+      "bytes": 219832617
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v8-50m-final",
+      "file_count": 5,
+      "bytes": 225275341
+    },
+    {
+      "folder": "data/petlm/prepared-chinese-v8-50m-frozen",
+      "file_count": 5,
+      "bytes": 224985022
+    },
+    {
+      "folder": "data/petlm/prepared-curated-baseline",
+      "file_count": 5,
+      "bytes": 7825514
+    },
+    {
+      "folder": "data/petlm/prepared-curated-expanded",
+      "file_count": 5,
+      "bytes": 24101928
+    },
+    {
+      "folder": "data/petlm/prepared-curated-wiki-expanded",
+      "file_count": 5,
+      "bytes": 94231584
+    },
+    {
+      "folder": "data/petlm/prepared-three-source",
+      "file_count": 5,
+      "bytes": 16670046
+    },
+    {
+      "folder": "data/petlm/raw",
+      "file_count": 6270,
+      "bytes": 5204300071
+    },
+    {
+      "folder": "data/petlm/synthetic-verification",
+      "file_count": 69,
+      "bytes": 2150361502
+    },
+    {
+      "folder": "data/petlm/tokens",
+      "file_count": 5,
+      "bytes": 14352574
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v17-stage1-24k",
+      "file_count": 2,
+      "bytes": 9873195
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v17-stage3-24k",
+      "file_count": 0,
+      "bytes": 0
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v17-stage7-24k",
+      "file_count": 5,
+      "bytes": 346211215
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v17-stage8-24k",
+      "file_count": 5,
+      "bytes": 429795280
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v18-strict-24k",
+      "file_count": 5,
+      "bytes": 362236438
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v18-strict2-24k",
+      "file_count": 5,
+      "bytes": 340031943
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v19-strict-24k",
+      "file_count": 5,
+      "bytes": 341106904
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v20-strict-24k",
+      "file_count": 5,
+      "bytes": 346671485
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v21-strict-24k",
+      "file_count": 5,
+      "bytes": 353182533
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v23-strict-24k",
+      "file_count": 5,
+      "bytes": 515561480
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v24-strict-24k",
+      "file_count": 5,
+      "bytes": 696560715
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v25-strict-24k",
+      "file_count": 5,
+      "bytes": 897558146
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v26r1-strict-24k",
+      "file_count": 5,
+      "bytes": 1093307186
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v3",
+      "file_count": 5,
+      "bytes": 57233812
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v5",
+      "file_count": 5,
+      "bytes": 53520729
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v6",
+      "file_count": 5,
+      "bytes": 88120995
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v7",
+      "file_count": 5,
+      "bytes": 117916536
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v8",
+      "file_count": 5,
+      "bytes": 187656621
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v8-50m",
+      "file_count": 5,
+      "bytes": 220929573
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v8-50m-final",
+      "file_count": 5,
+      "bytes": 226511577
+    },
+    {
+      "folder": "data/petlm/tokens-chinese-v8-50m-frozen",
+      "file_count": 5,
+      "bytes": 226348238
+    },
+    {
+      "folder": "data/petlm/tokens-curated-expanded",
+      "file_count": 5,
+      "bytes": 27144742
+    },
+    {
+      "folder": "data/petlm/tokens-curated-wiki-expanded",
+      "file_count": 5,
+      "bytes": 109400135
+    },
+    {
+      "folder": "data/petlm/tokens-three-source",
+      "file_count": 5,
+      "bytes": 18854473
+    }
+  ],
+  "local_only": [
+    "source downloads and mixed-license corpora",
+    "frozen evaluation prompts and answer keys",
+    "weights and large token snapshots",
+    "unreviewed or superseded data",
+    "local settings and SQLite state"
+  ]
+}

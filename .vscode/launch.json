@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "电子宠物：本地对话实验",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "petlm.dialogue_chat",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONUTF8": "1" },
+      "justMyCode": true
+    },
+    {
+      "name": "电子宠物：验证 GPU 训练",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/check_gpu.py",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONUTF8": "1" },
+      "justMyCode": true
+    },
+    {
+      "name": "电子宠物：检查开发环境",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "env": { "PYTHONUTF8": "1" },
+      "justMyCode": true
+    }
+  ]
+}
